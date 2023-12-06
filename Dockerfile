@@ -1,5 +1,5 @@
-FROM --platform=linux/386 jlesage/baseimage-gui:debian-11-v4.5
-#FROM --platform=linux/amd64 jlesage/baseimage-gui:debian-11-v4.5
+#FROM --platform=linux/386 jlesage/baseimage-gui:debian-11-v4.5
+FROM --platform=linux/amd64 jlesage/baseimage-gui:debian-11-v4.5
 
 
 
