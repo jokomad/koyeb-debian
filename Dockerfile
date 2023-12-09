@@ -32,6 +32,8 @@ RUN \
   rm -rf \
     /tmp/*
 
+RUN apk add sudo
+
 # add local files
 COPY /root /
 
