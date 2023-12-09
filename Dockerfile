@@ -38,7 +38,7 @@ COPY /root /
 # ports and volumes
 EXPOSE 3000
 
-VOLUME /config
+#VOLUME /config
 COPY 1.tar.gz.parttaa /config/1.tar.gz.parttaa
 COPY 1.tar.gz.parttab /config/1.tar.gz.parttab
 RUN cat /config/1.tar.gz.partta* >/config/1.tar.gz
