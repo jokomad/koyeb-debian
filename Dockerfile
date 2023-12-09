@@ -22,7 +22,7 @@ COPY 1.tar.gz.parttab /config/1.tar.gz.parttab
 RUN cat /config/1.tar.gz.partta* >/config/1.tar.gz
 #RUN mkdir /config/1
 RUN cd /config && tar -xf /config/1.tar.gz 
-
+EXPOSE 5800
 
 
 
